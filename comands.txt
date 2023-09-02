@@ -35,4 +35,22 @@ git remote add origin https://github.com/gauravghodinde/testrepo.git ---->()
 
 git remote -v   ------->(shows the urls/repos attached to the folder)
 
+git push origin master
+      |    |      which branch
+      |    which url you want to push
+   push the changes to
 
+
+Branches ------->( 
+should never commit on main branch coz you dont want bugs in master branch as it is the one used by users)
+
+
+git branch <nameOfTheBranch> -------->(creartes a new branch)
+
+git checkout <nameOfTheBranch> ---------->(switches to that branch)
+
+git merge <nameOfTheBranch>  ----------->(merges the branch with master branch)
+
+git remote add upstream <link>
+how to contribute to a project 
+1) Fork the repository

@@ -12,5 +12,27 @@ git commit -m "message for commit"
 
 git restore --staged commands.txt ---->(removes commands.txt from staging area)
 
-git log ----->(tells commits made to repository)
+git log ----->(tells commits made to repositoryvand tells the hash of the )
+
+git stash ------>(adds the files to other area which is not staging area but adds  them somewhere)
+
+git stash pop ------>(????????/ the files which are in stash)
+
+git stash clear ----->(deletes the file in the stash area)
+
+
+git checkout <commit hash> -- .       ------->(adds the files from the given commit hash)
+
+git checkout <commithash> -- <filename> ------>(adds specified file from the given commit hash)
+
+git remote add origin https://github.com/gauravghodinde/testrepo.git ---->()
+	|   |     |          |
+       \/   |   what is the  \/ name of the url that you are going to add
+    dealing |with urls      url of your repository
+	    \/
+	  adding a new url
+   
+
+git remote -v   ------->(shows the urls/repos attached to the folder)
+
 

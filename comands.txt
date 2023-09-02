@@ -1,0 +1,11 @@
+git init ----->>( to initialize the git repository and creates .git folder)
+
+
+git status ---------->(shows the untracted files present in the repository)
+
+
+git add . ---->(add all the untracted files to the staging area)
+
+git add comands.txt ---(add comands.txt to  the staging area)
+
+git commit -m "message for commit"

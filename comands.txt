@@ -9,3 +9,8 @@ git add . ---->(add all the untracted files to the staging area)
 git add comands.txt ---(add comands.txt to  the staging area)
 
 git commit -m "message for commit"
+
+git restore --staged commands.txt ---->(removes commands.txt from staging area)
+
+git log ----->(tells commits made to repository)
+

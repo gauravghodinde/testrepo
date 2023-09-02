@@ -51,6 +51,9 @@ git checkout <nameOfTheBranch> ---------->(switches to that branch)
 
 git merge <nameOfTheBranch>  ----------->(merges the branch with master branch)
 
+git reset --hard <hash of the commit that is below the commit to be deleted>
+
 git remote add upstream <link>
 how to contribute to a project 
 1) Fork the repository
+2) clone the repo

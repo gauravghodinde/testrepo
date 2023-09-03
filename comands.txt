@@ -57,3 +57,12 @@ git remote add upstream <link>
 how to contribute to a project 
 1) Fork the repository
 2) clone the repo
+3) create a new branch for your work to add
+4) checkout to that branch
+5) commit in that branch
+6) push into that branch
+7) if want to push previous branch force push
+
+
+
+
